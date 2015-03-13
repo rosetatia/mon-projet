@@ -1,1 +1,2 @@
-Le deuxième cours à suivre pour devenir intégrateur web est le cours de htlm5 etcss3
+Le deuxième cours à suivre pour devenir intégrateur web est le cours de htlm5 etcss3. 
+il faut bien comprendre ce cours parce que pour passer à un langage serveur ce cours est très important
