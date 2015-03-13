@@ -1,0 +1,14 @@
+int main(int argc, char * argv[]) {
+
+    /* Parse arguments */
+    if (argc != 2) usage(); 
+
+    /* Seed random number generator */
+    srand(time(NULL) ^ getpid());
+
+    char * method = argv[1]; 
+
+    /* The sched argument should be one of fcfs, rr, sjf, srtf */
+    if (strcmp(method, "fcfs") == 0) {
+        scheduler = fcfs;
+    } 
